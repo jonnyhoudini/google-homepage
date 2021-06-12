@@ -5,8 +5,18 @@ body {
 
   a {
     padding: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #535353;
   }
 
+  a:hover {
+    text-decoration: underline;
+  }
+
+.navLogo {
+  padding: 8px;
+}
 
 .googleLogo {
     margin-top: 140px;
@@ -27,11 +37,19 @@ ul {
 
 li {
   float: left;
+  text-decoration: none;
 }
 
 li a {
   display: block;
   padding: 8px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+  width: 100%;
 }
 
 .logo {
